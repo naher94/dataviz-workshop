@@ -9,7 +9,7 @@ function setup() {
   noLoop();
 
   // Initialize your data
-  data = loadTable("/data/100_0102.txt","csv",handleDataLoad);  
+  data = loadTable("../data/100_0102.txt","csv",handleDataLoad);  
 
   // create a drawing area 
   createCanvas(1400, 700);
